@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    /* font-weight:600; */
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#madara{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#sasuke{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#sasuke1{
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+}
+#sasuke h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#sasuke i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+#sasuke h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#sasuke button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+#sasuke #btn2{
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+#madara>h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 380px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5%;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-28deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-21deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-14deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-7deg);
+}
+#img5{
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
